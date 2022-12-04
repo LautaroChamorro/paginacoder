@@ -513,4 +513,16 @@ margin: 10px;
         gap: 15px;
     
     }
-}
+    .formulario{
+        width: 100%;
+    }
+    .tituloRegistrate h1{
+        font-size: 53px;
+    }
+    .tituloParrafo div{
+        width: 100%;
+    }
+    .torneos div img{
+        width: 100%;
+    }
+      
