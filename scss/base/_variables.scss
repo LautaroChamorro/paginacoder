@@ -1,0 +1,12 @@
+//-------Colores-------//
+$color-principal: #000056;
+$color-secundario: #C4DEF0;
+
+//-------Extends-------//
+%center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

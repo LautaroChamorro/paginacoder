@@ -1,0 +1,67 @@
+@media screen and (max-width: 1180px){
+    .encabezado{
+        flex-direction: column;
+    }
+    .encabezado nav ul li{
+        margin: 15px;
+    }
+    .encabezado nav ul{
+        padding-right: 0;
+    }
+    .gridContenedor{
+        display: grid;
+        grid-auto-rows: 200px;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+    }
+    .gridContenedor .gridItems{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .item5{
+        grid-row: span 2;
+    }
+    .item6{
+        grid-row: span 2;
+    }
+    .item7{
+        grid-row: span 2;
+    }
+    .item8{
+        grid-row: span 2;
+    }
+
+}
+@media screen and (max-width: 700px){
+    .encabezado nav ul li{
+        margin: 5px;
+    }
+    .encabezado nav ul{
+        flex-direction: column;
+    }
+    .publicidad{
+        display: none;
+    }
+    .gridContenedor{
+        display: grid;
+        grid-auto-rows: 200px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 15px;
+    }
+    .fondoRegistrate .formulario{
+        width: 100%;
+    }
+    .fondoRegistrate .tituloRegistrate h1{
+        font-size: 53px;
+    }
+    .fondoConsejos .tituloParrafo div{
+        width: 100%;
+    }
+    .torneos div img{
+        width: 100%;
+    }
+    .tituloParrafo div iframe{
+        width: 360px;
+        height: 260px;
+    }
+}
