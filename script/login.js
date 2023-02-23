@@ -11,13 +11,8 @@ let miFormulario = document.getElementsByClassName("formulario");
 miFormulario.addEventListener ("submit", validarFormulario);
 function validarFormulario(e){
     e.preventDefault();
-    let formulario = e.target;
     alert ("Su formulario ha sido enviado con exito!")
 }
 
 
 
-
-function agarrarDatosDeUsuario(){
-
-}
